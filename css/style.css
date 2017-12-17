@@ -1,0 +1,187 @@
+*{font-family: verdana}
+
+.flag {
+    float: right;
+    margin-right: 15px;
+    
+}
+table {
+    border-spacing: 15px;
+    text-align: justify;
+}
+
+th a:hover {
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/*Baggrundsbillede*/ 
+
+
+.baggrundsbillede {
+    height: 760px;
+    background-image: url(../image/aarhus0.jpg);
+    background-size: cover;
+    
+}
+.baggrundsbillede1 {
+    height: 850px;
+    background-image: url(../image/aarhus0.jpg);
+    background-size: cover;
+
+}
+
+.baggrundsbillede2 {
+    height: 880px;
+    background-image: url(../image/aarhus0.jpg);
+    background-size: cover;
+}
+
+
+.container {
+    width: 100%;
+    text-align: center;
+    
+}
+
+/*Startside*/
+
+.boder, .takeaway, .ur, .events {
+    display: inline-block;
+    padding-right: 100px;
+    padding-left: 100px;   
+}
+
+.overskrift {
+    width: 95%;
+     padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
+.stortekst {
+    text-align: center;
+    color: white
+    
+    
+}
+.tekst {
+    text-align: center;
+    border: 2px solid #FFFFFF;
+    width: 200px;
+    color: white;
+    background-color: rgba(100,100,100,0.6);
+    line-height: 1.5;
+}    
+
+
+/*Mad og drikke*/
+    
+.madbillede {
+    margin-left: 21.5%;
+    margin-top: -50px;
+}
+
+/*åbningstider*/
+    
+.kort {
+    margin-left: 21.5%;
+    color: white;
+}
+
+.kort {
+    text-align: center;
+    border: 2px;
+    width: 500px;
+    color: white;
+    background-color: rgba(100,100,100,0.6);
+    line-height: 1.5;
+    margin-left: 10%;
+}    
+
+/*Take away*/
+.takeaway {
+    margin-left: 21.5%;
+    color: white;
+}
+
+.takeaway {
+    text-align: center;
+    border: 2px;
+    width: 500px;
+    color: white;
+    background-color: rgba(100,100,100,0.4);
+    line-height: 1.5;
+    margin-left: 20%;
+}  
+
+/*Events*/
+
+.events {
+    margin-left: 21.5%;
+    color: white;
+}
+
+.events {
+    text-align: center;
+    border: 2px;
+    width: 1000px;
+    color: white;
+    background-color: rgba(100,100,100,0.6);
+    line-height: 1.5;
+    margin: auto
+}  
+
+/*App*/
+
+.app {
+     text-align: center;
+   margin: auto;
+background-color: rgba(100,100,100,0.6);    
+    
+}
+
+.footer {
+  right: 0;
+  bottom: 0px;
+  left: 0;
+  padding: 2rem;
+  text-align: left;
+    display: inline;
+    float: left;
+    margin-top: 0px;
+}
+
+.footer1 { 
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 2rem;
+  color: white;
+float: left;
+    margin-left: 700px
+}
+
+.div1 {
+    border: 25px;
+    width: 300px;
+    padding: 25px;
+    margin: 25px;
+}
+
